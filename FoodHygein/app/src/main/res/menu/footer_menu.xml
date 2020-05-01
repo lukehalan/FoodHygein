@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2019. Mohammad Halan - Portfolio Assignment
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/list_menu"
+        android:enabled="true"
+        android:icon="@drawable/ic_view_list_black_24dp"
+        android:title="@string/list"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/map_menu"
+        android:enabled="true"
+        android:icon="@drawable/ic_map_black"
+        android:title="@string/map"
+        app:showAsAction="ifRoom" />
+
+</menu>

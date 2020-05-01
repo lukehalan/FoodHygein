@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2019. Mohammad Halan - Portfolio Assignment
+  -->
+
+<!--
+<ImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail_image"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:scaleType="fitCenter"
+    tools:context=".PhotoDetailActivity$PlaceholderFragment" />-->
+
+<com.github.chrisbanes.photoview.PhotoView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail_photoView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:scaleType="fitCenter"
+    tools:context=".PhotoDetailActivity$PlaceholderFragment" />

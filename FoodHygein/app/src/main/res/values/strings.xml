@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Food Hygein Rating</string>
+    <string name="mapAPIKey">AIzaSyCeNm8JQ0TQqL7qv0kT59-jI_XfT2lIuJo</string>
+    <string name="app_name_lable">Food HR</string>
+    <string name="splash_loading_assets">Please wait</string>
+
+    <string name="local_authorities_fail_to_load">Local Authorities has been failed to load.</string>
+    <string name="local_authorities_fail_to_parse">Local Authorities has been failed to parse.</string>
+    <string name="regions_fail_to_load">Regions has been failed to load.</string>
+    <string name="regions_fail_to_parse">Regions has been failed to parse.</string>
+    <string name="business_types_fail_to_load">Business Type has been failed to load.</string>
+    <string name="business_type_fail_to_parse">Business Type has been failed to parse.</string>
+    <string name="gpsError">Error when checking GPS</string>
+    <string name="gps_activation_message">GPS is required. Do you want to enable it?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="businessName">Business Name</string>
+    <string name="businessAddress">Address</string>
+    <string name="fhrs">FHRS</string>
+    <string name="fhis">FHIS</string>
+    <string name="localAuthority">Local Authority</string>
+    <string name="requires_location">Requires location</string>
+    <string name="number_one">1</string>
+    <string name="region">Region</string>
+    <string name="businessType">Business Type</string>
+    <string name="rating">Rating</string>
+    <string name="searchRadius">Search Radius</string>
+    <string name="searchNearMe">Near me</string>
+    <string name="search">Search</string>
+    <string name="advancedSearch">Advanced Search</string>
+    <string name="advancedOptions">Advanced Options</string>
+    <string name="miles">miles</string>
+    <string name="map">Map</string>
+    <string name="favourite_menu">Favourite List</string>
+    <string name="list">List</string>
+    <string name="wait_for_location">Waiting for location</string>
+    <string name="location_permission_access_request">Access to location is required to proceed with the current task</string>
+    <string name="search_criteria_filter">At least one search criteria must be entered</string>
+    <string name="empty_search_error">You must fill at least one field.</string>
+    <string name="simpleSearch">Simple Search</string>
+    <string name="fetch_more_data">Fetching more data</string>
+    <string name="textView_name">TextView Name</string>
+    <string name="textView_type">TextView Type</string>
+    <string name="textView_date">TextView Date</string>
+    <string name="zero_miles">0 mile</string>
+    <string name="zero">0</string>
+    <string name="load_data">Loading data…</string>
+    <string name="results_not_found">No results found</string>
+    <string name="load">Loading…</string>
+    <string name="sort_by">Sort by:</string>
+    <string name="result">results</string>
+    <string name="twenty_three">23</string>
+    <string name="show">Showing:</string>
+    <string name="load_error">Error Happened</string>
+    <string name="favourite_add_msg">Added to favourites</string>
+    <string name="favourite_remove_msg">Removed from favourites</string>
+    <string name="two_point_three">2.3</string>
+    <string name="zero_stars">0 star</string>
+    <string name="result_error">Error when getting data</string>
+    <string name="search_results">Search Results</string>
+    <string name="rate_scheme">Rating Scheme</string>
+    <string name="rate_scheme_textView">TextView Rating Scheme</string>
+    <string name="textView_fhis_rate">TextView Passed</string>
+    <string name="structural">Structural</string>
+    <string name="hygiene">Hygiene</string>
+    <string name="scores">Scores</string>
+    <string name="confidence_in_management">Confidence In Management</string>
+    <string name="rate_authority">RATING AUTHORITY</string>
+    <string name="authority_name">Authority Name</string>
+    <string name="localauthority_gov_uk_email">localauthority@gov.uk</string>
+    <string name="localauthority_gov_uk_site">localauthority.gov.uk</string>
+    <string name="address">Address</string>
+    <string name="textView_address_line_one">TextView Address Line One</string>
+    <string name="textView_address_line_two">TextView Address Line Two</string>
+    <string name="b15_1jh">B15 1JH</string>
+    <string name="load_error_details">"Error while getting data…"</string>
+    <string name="favourites">Favourites</string>
+    <string name="gotoSettingForPermisson">Go to settings and enable permissions.</string>
+    <string name="permissonneedsforcamera">Storage and Camera Services Permission required for this app</string>
+    <string name="action_settings">Settings</string>
+    <string name="takePhoto">take a photo</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="shareImageUsing">Share image(s) using</string>
+    <string name="deletedSuccessfully">Selected item(s) deleted successfully.</string>
+    <string name="deletedError">Unexpected Error. App can not delete item(s)</string>
+    <string name="cancel">Cancel</string>
+    <string name="permissionsDenied">Permissions Denied</string>
+    <string name="permissionsPermanentlyDenied">Permissions Permanently Denied</string>
+    <string name="goAhead">Go Ahead</string>
+    <string name="close">Close</string>
+    <string name="permissionsAsking">Please allow us to proceed asking for permissions again, or cancel to end the permission flow.</string>
+    <string name="permissionsGranted">Permissions granted</string>
+    <string name="locationServiceRequired">The Location service permissions are required to proceed futher. Please allow from app settings</string>
+
+    <string-array name="fhisRating">
+        <item>Pass</item>
+        <item>Improvement Required</item>
+        <item>Awaiting Publication</item>
+        <item>Awaiting Inspection</item>
+        <item>Exempt</item>
+    </string-array>
+    <string-array name="ratingOperators">
+        <item>Equal</item>
+        <item>Less Than Or Equal</item>
+        <item>Greater Than Or Equal</item>
+    </string-array>
+    <string-array name="sort_option">
+        <item>Rating (highest to lowest)</item>
+        <item>Rating (lowest to highest)</item>
+        <item>Relevance</item>
+        <item>Distance</item>
+    </string-array>
+
+</resources>

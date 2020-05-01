@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2019. Mohammad Halan - Portfolio Assignment
+  -->
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:minWidth="200dp"
+    android:padding="@dimen/app_content_space">
+
+    <TextView
+        android:id="@+id/info_shop_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/textView_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_subheading"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/info_shop_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/textView_type"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/text_small_subheading"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_shop_name" />
+
+    <RatingBar
+        android:id="@+id/info_shop_rating"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:numStars="5"
+        android:rating="0"
+        android:stepSize="1"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/info_shop_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/two_point_three"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_small_subheading"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="@string/miles"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_small_subheading"
+        app:layout_constraintBottom_toBottomOf="@+id/info_shop_distance"
+        app:layout_constraintStart_toEndOf="@+id/info_shop_distance"
+        app:layout_constraintTop_toTopOf="@+id/info_shop_distance" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="20dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/distance_2"
+        app:layout_constraintDimensionRatio="h,1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_shop_category" android:contentDescription="TODO"  />
+
+    <TextView
+        android:id="@+id/info_zero_stars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zero_stars"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_small_subheading"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/info_shop_rating"
+        app:layout_constraintStart_toEndOf="@+id/info_shop_rating"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <android.support.constraint.Group
+        android:id="@+id/info_distance_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="imageView3,info_shop_distance,textView20"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <TextView
+        android:id="@+id/fhis_rating_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_small_subheading"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_shop_rating" />
+
+
+</android.support.constraint.ConstraintLayout>
